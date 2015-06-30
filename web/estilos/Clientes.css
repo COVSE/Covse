@@ -1,0 +1,33 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : 13-oct-2014, 23:33:00
+    Author     : pc
+*/
+.boton{
+    border: none; 
+        cursor: pointer;
+}
+.crear{
+    background: url(../Imagenes/Crear1.png);
+}
+.modificar{
+    background: url(../Imagenes/Modificar1.png);
+}
+.eliminar{
+    background: url(../Imagenes/Anular1.png);
+}
+.limpiar{
+    background: url(../Imagenes/Limpiar1.png);
+}
+.listar{
+    background: url(../Imagenes/Listar1.png);
+}
+.consultar{
+    background: url(../Imagenes/Consultar1.png);
+}
+
+

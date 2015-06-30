@@ -1,0 +1,145 @@
+/* 
+    Document   : iniciosesion
+    Created on : 1/04/2014, 10:45:05 AM
+    Author     : USUARIO
+    Description:
+        Purpose of the stylesheet follows.
+*/
+
+
+#login-box {
+	width:333px;
+	height: 352px;
+	padding: 58px 76px 0 76px;
+	color: #ebebeb;
+	font: 12px Arial, Helvetica, sans-serif;
+	
+}
+
+#login-box img {
+	border:none;
+}
+
+#login-box h2 {
+	padding:0;
+	margin:0;
+	color: #ebebeb;
+	font: bold 44px "arial", Arial;
+}
+
+
+#login-box-name {
+	float: left;
+	display:inline;
+	width:80px;
+	text-align: right;
+	padding: 14px 10px 0 0;
+	margin:0 0 7px 0;
+}
+
+#login-box-field {
+	float: left;
+	display:inline;
+	width:230px;
+	margin:0;
+	margin:0 0 7px 0;
+}
+
+
+
+
+.login-box-options  {
+	clear:both;
+	
+	font-size: 14px;
+}
+
+.login-box-options a {
+	color: #ebebeb;
+	font-size: 11px;
+}
+root { 
+    display: block;
+}
+
+.wraper{
+    text-align: center;
+    width: 100%;
+    height: 100%
+}
+input{
+    border: 1px solid #BFBFBF;
+    color: #333;
+padding: 5px 25px 5px 5px;
+    width: 230px;
+    height: 25px;
+    border-radius: 5px;
+    margin-bottom: 15px;
+}
+input.usuario{
+ background: url("../Imagenes/iniciosesion.png") no-repeat scroll right  transparent;
+  }
+input.contraseña{
+ background: url("../Imagenes/contraseña.png") no-repeat scroll right  transparent;
+   
+}
+nav{
+    width: 270px;
+margin: 0 auto;
+border: 1px solid #7EA2F6;
+border-radius: 10px;
+padding: 20px;
+margin-top: 50px;
+box-shadow: 8px 8px 5px #999;
+ -webkit-box-shadow: 8px 8px 5px #999;
+  -moz-box-shadow: 8px 8px 5px #999;
+  filter: shadow(color=#999999, direction=135, strength=2);
+}
+input.check{
+    width: 25px !important;
+height: 20px !important;
+float: left;
+padding: 0;
+}
+.btnInicio{
+background: #333;
+color: #fff;
+font-size: 25px;
+padding: 10px;
+height: 50px;
+cursor: pointer;
+    margin-top:2px;
+}
+.btnInicio:hover{
+    color: #8be5fc
+}
+#iniciosesion h2{
+    font-size: 40px;
+}
+#iniciosesion hr{
+    margin: 25px 0 30px 0;
+}
+.copyright{
+    padding: 100px;
+}
+.cuadroa{
+    border: 1px solid #7EA2F6;
+
+border-radius: 10px;
+box-shadow: 0px 8px 5px #999;
+width: 1280px;
+margin: 0 auto;
+padding: 0px;
+
+
+}
+.boton{
+    border: none; 
+        cursor: pointer;
+}
+.aceptar{
+    background: url(../Imagenes/Aceptar_1.png);
+}
+.salir{
+    background: url(../Imagenes/Salir1.png);
+}

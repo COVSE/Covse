@@ -1,0 +1,107 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : 24-may-2014, 15:39:50
+    Author     : carol
+*/
+td, th{
+padding: 10px 20px 10px 20px;
+}
+table{
+border: 1px, 19px,solid #0B66A2;
+
+}
+.cabezote{
+background: #AFEEEE;
+}
+.cabezote th{
+background: #AFEEEE;
+border-left: 1px solid #fff;
+}
+.par{
+background: #e2ebef;
+}
+.boton input[type='submit']{
+   
+    box-shadow:0 0 0 0px #EEF5F7;
+    padding: 11px 24px;
+    border-radius: 19px;
+    font-weight: bold;
+    text-shadow: 1px 1px 0px white;
+    font: bold 13px "arial", Arial;
+    cursor: pointer;
+    position: relative;
+top: 141px;
+ 
+   
+    
+}
+.eliminar{
+    background: url(../Imagenes/eliminar.png) left center no-repeat;
+    padding-left: 39px !important;
+    background-position: center left 15px;
+}
+.eliminar:hover{
+  background: url(../Imagenes/eliminar.png)#e2ebef left center no-repeat; 
+   padding-left: 39px !important;
+    background-position: center left 15px;
+}
+.actualizar{
+     background: url(../Imagenes/guardar.png) left center no-repeat;
+      padding-left: 45px !important;
+      background-position: center left 15px;
+}
+.actualizar:hover{
+  background: url(../Imagenes/guardar.png)#e2ebef left center no-repeat; 
+   padding-left: 45px !important;
+    background-position: center left 15px;
+}
+.modificar{
+     background: url(../Imagenes/modificar.png) left center no-repeat;
+      padding-left: 45px !important;
+      background-position: center left 15px;
+}
+.modificar:hover{
+  background: url(../Imagenes/modificar.png)#e2ebef left center no-repeat; 
+   padding-left: 45px !important;
+    background-position: center left 15px;
+}
+.crear{
+     background: url(../Imagenes/agregar.png) left center no-repeat;
+      padding-left: 45px !important;
+      background-position: center left 15px;
+}
+.crear:hover{
+  background: url(../Imagenes/agregar.png)#e2ebef left center no-repeat; 
+   padding-left: 45px !important;
+    background-position: center left 15px;
+}
+.atras{
+     background: url(../Imagenes/atras.png) left center no-repeat;
+      padding-left: 45px !important;
+      background-position: center left 15px;
+}
+.atras:hover{
+  background: url(../Imagenes/atras.png)#e2ebef left center no-repeat; 
+   padding-left: 45px !important;
+    background-position: center left 15px;
+}
+.consultar{
+     background: url(../Imagenes/buscar.png) left center no-repeat;
+      padding-left: 45px !important;
+      background-position: center left 15px;
+}
+.consultar:hover{
+  background: url(../Imagenes/buscar.png)#e2ebef left center no-repeat; 
+   padding-left: 45px !important;
+    background-position: center left 15px;
+}
+.copyright{
+    padding: 163px;
+}
+Page-Enter{
+  
+}

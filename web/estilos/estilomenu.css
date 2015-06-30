@@ -1,0 +1,102 @@
+ /* 
+    Document   : estilomenu
+    Created on : 1/04/2014, 09:52:32 AM
+    Author     : USUARIO
+    Description:
+        Purpose of the stylesheet follows.
+*/
+#menu a{
+    text-decoration: none;
+    color:#fff;
+}
+ul#menu {
+ background: #333;
+width: 98%;
+float: left;
+padding: 5px;
+margin-top: 55px
+}
+   
+ul#menu li {
+ color: #fff;
+ float: left;
+ list-style: none;
+ margin: 0% 4%;
+ font: bold 13px "arial", Arial;
+}
+   
+ul#menu li:hover, ul#menu a:hover{
+ color: #FAEBD7;
+ cursor:pointer;
+}
+   
+ul#menu ul {
+ display: none;
+ position: absolute;
+ top: 30px;
+ background: #333;
+ color: #fff;
+ padding: 5px 0px 5px 5px;
+ margin: 0;
+ }
+   
+ul#menu ul li{
+ float: left;
+ color: #fff;
+ width:100%;
+ margin:2% 0%;
+
+}
+  
+  
+ul#menu ul li a{
+ color: #fff;
+}
+   
+ul#menu ul li a:hover{
+ color: #FAEBD7;
+ cursor:pointer;
+}
+   
+ul#menu li:hover ul ul,ul#menu li:hover ul ul ul,ul#menu li.iehover ul ul,ul#menu li.iehover ul ul ul {
+ display: none;
+ cursor:pointer;
+}
+   
+ul#menu li:hover ul,ul#menu ul li:hover ul,ul#menu ul ul li:hover ul,ul#menu li.iehover ul,ul#menu ul li.iehover ul,ul#menu ul ul li.iehover ul {
+ display: block;
+ cursor:pointer;
+}
+root { 
+    display: block;
+}
+.logo{
+    
+    width: 18%;
+    float: center;
+    margin: 1;
+    
+}
+.banner{
+    text-align: center;
+}
+a.botonesGris{
+  font-size: 37px;
+background: #333;
+color: #fff;
+padding: 11px 30px 4px 37px;
+border-radius: 35px;
+text-decoration: none;
+cursor: pointer;
+margin: 100px;
+}
+a:hover.botonesGris {
+    color:#8be5fc 
+}
+.contBotones{
+    text-align: center;
+margin-top: 275px;
+}
+.copyright{
+    padding: 100px;
+}
